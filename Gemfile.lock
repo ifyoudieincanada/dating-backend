@@ -47,6 +47,9 @@ GEM
       activemodel (>= 4.0.0)
       activesupport (>= 4.0.0)
       mime-types (>= 1.16)
+    carrierwave-mongoid (0.1.0)
+      carrierwave
+      mongoid
     concurrent-ruby (1.0.2)
     erubis (2.7.0)
     ffi (1.9.14)
@@ -135,6 +138,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
   carrierwave (>= 1.0.0.beta, < 2.0)
+  carrierwave-mongoid
   geocoder
   listen (~> 3.0.5)
   mini_magick
