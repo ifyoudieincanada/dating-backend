@@ -19,6 +19,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 # For file uploads and stuff (also image processing with imagemagick or something)
 gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+gem 'mini_magick'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
