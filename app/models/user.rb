@@ -10,4 +10,7 @@ class User
   field :avatar, type: String
 
   mount_uploaders :avatar, AvatarUploader
+
+  embeds_many :to, :class_name => "Message"
+  embeds_many :from, :class_name => "Message"
 end
