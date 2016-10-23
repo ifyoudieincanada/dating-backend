@@ -8,4 +8,6 @@ class User
   field :gender, type: String
   field :bio, type: String
   field :avatar, type: String
+
+  mount_uploaders :avatar, AvatarUploader
 end
