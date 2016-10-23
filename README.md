@@ -85,8 +85,9 @@ Successfully added user: {
 
 * Database initialization
 ```bash
-bundle exec rails db:migrate
+bundle exec rake db:create
 bundle exec rake db:setup
+bundle exec rails db:migrate
 ```
 
 * How to run the test suite
